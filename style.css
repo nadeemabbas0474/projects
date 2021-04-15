@@ -1,0 +1,408 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#home{
+background-color: coral;
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 0% 80%);
+/* height: 100vh; */
+color: white;
+}
+.home-tlt{
+    width: 94%;
+    padding: 7% 0px 0px 5.5%;
+    height: 100vh;
+}
+.home-tlt h2{
+    width: 60%;
+}
+.home-tlt h2 span{
+    padding: 0px 0px 0px 1%;
+    color: rgb(8, 154, 212);
+    width: 30%;
+    font-size: 35px;
+}
+.home-tlt h4{
+    margin: 1.2% 0px 0px 0px ;
+    text-transform: capitalize;
+    width: 50%;
+}
+
+#home .home-about h2{
+    text-transform: capitalize;
+    margin: 3.3% 0px 0.6% 0px;
+    width: 50%;
+}
+#home .home-about p{
+    padding: 10px 0px 0px 0px;
+    width: 71%;
+    font-size: 17px;
+}
+.home-about .btn-box .btn{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 2rem 0px 0px 0px ;
+    padding: 13px 45px 13px 45px;
+    border: 2px solid rgb(52, 52, 236);
+    border-radius: 40px;
+    background-color: #fff;
+}
+
+.btn-box .home-box{
+    background-color: blue;
+    position: relative;
+    right: 16%;
+    top: 10px;
+    width: 150px;
+    height: 180px;
+    text-align: center;
+    float: right;
+    color: white;
+} 
+.btn-box .home-box h1{
+padding: 15px 0px 0px 0px;
+font-size: 70px;
+font-weight: bold;
+}
+.btn-box .home-box h5{
+align-items: center;
+font-size: 17px;
+text-align: center;
+padding: 0px 20px 0px 20px;
+text-transform: capitalize;
+}
+/* SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+                    My Skill Section
+    SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS */
+
+#my-skill{
+    width: 100%;
+    background-image: url(images/bg.jpg);
+    height: 100vh;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+#my-skill .skill-heading h1{
+    text-transform: capitalize;
+    padding: 5%;
+    text-align: center;
+}
+#my-skill .skill-heading h1 span{
+    color: blue;
+}
+.skill-icons{
+    background-image: url(images/tea.jpg);
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+background-repeat: no-repeat;
+justify-content: center;
+justify-content: space-evenly;
+background-size: cover;
+}
+.skill-icons .skill-boxes{
+    margin-top: 06%;
+    height: 20vh;
+    width: 10%;
+    text-align: center;
+    color: white;
+}
+.skill-icons .skill-boxes i{
+    padding: 15%;
+    color: rgba(0, 230, 251, 0.911);
+    font-size: 38px;
+}
+/* SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+               My Services Section 
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS */
+#my-serices{
+    padding:90px 90px 60px 60px;
+}
+#my-serices .my-service h1{
+    text-transform: capitalize;
+}
+#my-serices .my-service span{
+color: rgba(10, 70, 199, 0.986);
+font-size: 25px;
+}
+#my-serices .services{
+    display: flex;
+    flex-direction: row;
+}
+#my-serices .services .service-boxes{
+    border: whitesmoke 2px solid;
+    padding: 5% 2.5%;
+    margin:10px 20px 10px 0px;
+    box-shadow:2px 2px 2px 1px whitesmoke;
+}
+.services .service-boxes i{
+    color: rgba(10, 177, 199, 0.986);
+    font-size: 25px;
+}
+/* .services #box1 h2{
+    position: relative;
+    left: 50%;
+    top: 50%;
+} */
+/* TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+                   My Team Section
+TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT */
+#my-team{
+    padding: 3.5% 4%;
+    width: 92%;
+    height: 85vh;
+    background-color: whitesmoke;
+}
+#my-team .my-tm h1{
+    text-transform: capitalize;
+    padding: 3% 0% 3% 0%;
+    font-size: 28px;
+}
+#my-team .my-tm h1 span{
+    color: rgb(14, 14, 235);
+}
+#my-team .team-mbrs{
+    display: flex;
+    justify-content: space-evenly;
+}
+#my-team .team-mbrs .teams{
+    width: 100%;
+}
+#my-team .team-mbrs .teams img{
+    width: 93%;
+    height: 93%;
+}
+#my-team .team-mbrs .teams h2{
+    text-align: center;
+    width: 93%;
+    padding: 0.5%;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+#my-team .team-mbrs .teams p{
+    text-align: center;
+    box-sizing: border-box;
+    width: 93%;
+    padding: 1.5%;
+    color: rgb(8, 240, 248);
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+#my-team .team-mbrs .teams .teams-icns{
+    background-color: blue;
+    width: 93%;
+    margin-top: 10px;
+    padding: 3.5% 0%;
+    word-spacing: 15px;
+    color: white;
+    text-align: center;
+}
+/* PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP
+               My Portfolio Section
+PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP */
+#my-portfilo{
+    width: 100%;
+}
+#my-portfilo .portfilo-heading h1{
+    padding: 6% 4% 0px;
+    text-transform: capitalize;
+}
+#my-portfilo .portfilo-heading h1 span{
+    color: blue;
+}
+#my-portfilo .nav{
+    text-align: center;
+}
+#my-portfilo .nav{
+width: 100%;
+display: flex;
+justify-content: center;
+}
+#my-portfilo .nav ul{
+display: flex;
+list-style: none;
+flex-direction: row;
+text-align: center;
+text-transform: capitalize;
+}
+#my-portfilo .nav ul li a{
+margin: 10px;
+text-decoration: none;
+font-weight: bold;
+}
+#my-portfilo .portfilo{
+    display: flex;
+    flex-direction: column;
+}
+#my-portfilo .portfilo-images{
+    display: flex;
+    padding: 0% 4% 0% 4%;
+    flex-direction: row;
+}
+#my-portfilo .portfilo-images .portfilo .img{
+    width: 96%;
+    padding: 20px;
+    border: 1px solid;
+    box-shadow:2px 2px 2px 1px whitesmoke;
+}
+#my-portfilo .portfilo-images .portfilo .img img{
+    width: 94%;
+    height: 70vh;
+    box-shadow:2px 2px 2px 2px whitesmoke;
+    box-sizing: border-box;
+}
+#my-portfilo .portfilo:nth-child(2) .img:nth-child(1){
+    height: 60vh;
+} 
+#my-portfilo .portfilo:nth-child(2) .img:nth-child(2){
+    height: 200vh;
+}
+/* CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+            Happy Clients Section
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC */
+#Happy-Clients{
+    background:rgba(245, 245, 245, 0.445);
+    width: 100%;
+}
+#Happy-Clients .Clients-heading h1{
+text-transform: capitalize;
+padding: 6% 4% 0px;
+}
+#Happy-Clients .Clients-heading h1 span{
+    color: blue;
+}
+#Happy-Clients .clients-boxes{
+display: flex;
+justify-content: space-between;
+width: 92%;
+padding: 2%;
+flex-direction: row;
+}
+#Happy-Clients .clients-boxes .clients-box{
+    width: 80%;
+    justify-items: center;
+    margin: 3%;
+    padding: 2%;
+    box-shadow:2px 2px 2px 4px rgba(245, 245, 245, 0.479);
+    background-color: whitesmoke;
+}
+#Happy-Clients .clients-boxes .clients-box img{
+    width: 15%;
+    height: 14vh;
+    border-radius: 50%;
+    margin: 0% 0% 0% 40%;
+    justify-items: center;
+    float:center;
+    text-align: center;
+}
+#Happy-Clients .clients-boxes .clients-box p{
+    text-align: center;
+    margin: 0% 5%;
+    border-left: rgb(12, 12, 12) 2px solid;
+}
+#Happy-Clients .clients-boxes .clients-box h4{
+    text-align: center;
+    margin: 0% 5%;
+    /* border-left: rgb(12, 12, 12) 2px solid; */
+}
+#Happy-Clients .clients-boxes .clients-box h1{
+    text-align: center;
+    padding: 0% 5%;
+}
+/* NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+                    News Section
+    NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN */
+#latest-news{
+    width: 96%;
+    background-color: white;
+}
+#latest-news .news-heading h1{
+    text-transform: capitalize;
+    padding: 6% 4% 0px;
+    }
+#latest-news .news-heading h1 span{
+        color: blue;
+    }
+#latest-news .news-boxes{
+    display: flex;
+    width: 93%;
+    flex-direction: row;
+    margin: 2.5%;
+}
+#latest-news .news-boxes .news-box{
+    display: flex;
+    width: 100%;
+    margin: 2% 1%;
+    flex-direction: row;
+}
+#latest-news .news-boxes .news-box img{
+width: 100%;
+height: 40vh;
+}  
+#latest-news .news-boxes .news-box .news-details 
+{
+    width: 100%;
+    background: whitesmoke;
+    padding: 1% 0% 0% 1%;
+}        
+/* GETGETGETGETGETGETGETGETGETGETGETGETGETGET
+                Get In Touch Section
+    GETGETGETGETGETGETGETGETGETGETGETGETGETGET */
+    #touch{
+        width: 100%;
+        height: 100vh;
+        background-color: rgba(245, 245, 245, 0.993);
+    }
+    #touch .touch-heading h1{
+    text-transform: capitalize;
+    padding: 6% 4% 0px;
+    }
+    #touch .touch-heading h1 span{
+        color: blue;
+    }
+/* FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+                  Footer Section
+FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF */
+.footer{
+    background-color: rgb(10, 8, 8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-top: 40px;
+    padding-bottom: 0px;
+    height: 30vh;
+    font-size: 22px;
+    align-items: center;
+    padding: 1rem 0;
+}
+.footer .footer-icons {
+   display: flex;
+
+}
+.footer .footer-icons .icon-wrapper {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 30px;
+   width: 30px;
+   background-color: white;
+   color: black;
+   border-radius: 50%;
+   margin: 0 4px;
+}
+.footer .footer-icons .icon-wrapper:hover {
+   background: rgba(0,0,0,0.4);
+   color: white;
+}
+.footer .footer-Address{
+    color: white;
+}
