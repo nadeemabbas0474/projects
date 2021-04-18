@@ -3,19 +3,19 @@
     margin: 0;
 }
 #home{
-background-color: coral;
+background:url(images/bg-img.jpg);
 background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 0% 80%);
-/* height: 100vh; */
+/* clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 0% 80%); */
+height: 100vh;
 color: white;
 }
 .home-tlt{
     width: 94%;
     padding: 7% 0px 0px 5.5%;
-    height: 100vh;
+    /* height: 100vh; */
 }
 .home-tlt h2{
     width: 60%;
@@ -74,6 +74,67 @@ font-size: 17px;
 text-align: center;
 padding: 0px 20px 0px 20px;
 text-transform: capitalize;
+}
+/* SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+               My Services Section 
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS */
+#my-serices{
+    width: 100%;
+    position: relative;
+    background-color: white;
+}
+#my-serices:before{
+    content: '';
+    width: 50%;
+    height: 140px;
+    position: absolute;
+    top: -58px;
+    left: 0;
+    background-color: white;
+    transform: skewY(8deg);
+}
+#my-serices:after{
+    content: '';
+    width: 50%;
+    height: 140px;
+    position: absolute;
+    top: -58px;
+    right: 0;
+    background-color: white;
+    transform: skewY(-8deg);
+}
+#my-serices .my-service h1{
+    text-transform: capitalize;
+    padding: 5% 5% 3% 5%;
+    font-size: 28px;
+}
+#my-serices .my-service span{
+color: rgba(10, 70, 199, 0.986);
+font-size: 25px;
+}
+#my-serices .services{
+    display: flex;
+    width: 90%;
+    padding: 0% 5% 5% 5%;
+    flex-direction: row;
+}
+#my-serices .services .service-boxes{
+    border: whitesmoke 2px solid;
+    padding: 5% 2.5%;
+    margin:10px 20px 10px 0px;
+    justify-content: space-around;
+    box-shadow:2px 2px 2px 1px whitesmoke;
+}
+#my-serices .services .service-boxes h1{
+    padding: 3% 0%;
+    text-transform: capitalize;
+}
+#my-serices .services .service-boxes p{
+font-size: 1.2rem;
+}
+.services .service-boxes i{
+    color: rgba(10, 177, 199, 0.986);
+    font-size: 30px;
 }
 /* SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
                     My Skill Section
@@ -224,38 +285,7 @@ abbr{
 .bar:nth-child(5) abbr{
     left: 70%;
 }
-/* SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
-               My Services Section 
-SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS */
-#my-serices{
-    padding:90px 90px 60px 60px;
-}
-#my-serices .my-service h1{
-    text-transform: capitalize;
-}
-#my-serices .my-service span{
-color: rgba(10, 70, 199, 0.986);
-font-size: 25px;
-}
-#my-serices .services{
-    display: flex;
-    flex-direction: row;
-}
-#my-serices .services .service-boxes{
-    border: whitesmoke 2px solid;
-    padding: 5% 2.5%;
-    margin:10px 20px 10px 0px;
-    box-shadow:2px 2px 2px 1px whitesmoke;
-}
-.services .service-boxes i{
-    color: rgba(10, 177, 199, 0.986);
-    font-size: 25px;
-}
-/* .services #box1 h2{
-    position: relative;
-    left: 50%;
-    top: 50%;
-} */
+
 /* TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
                    My Team Section
 TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT */
@@ -315,6 +345,7 @@ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT */
 PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP */
 #my-portfilo{
     width: 100%;
+    height: 100%;
 }
 #my-portfilo .portfilo-heading h1{
     padding: 6% 4% 0px;
@@ -345,46 +376,45 @@ text-decoration: none;
 font-weight: bold;
 }
 #my-portfilo .portfilo-images{
-    width: 91%;
-    height: 157vh;
+    width: 85%;
+    height: 127vh;
     display: flex;
-    margin: 0% 5% 0% 4%;
-    justify-content: space-evenly;
-    /* border: red 2px solid; */
+    margin: 0% 0% 0% 7%;
+    justify-content: space-around;
     flex-direction: row;
 }
 #my-portfilo .portfilo-images .img{
     width: 30%;
     height: 50vh;
-    /* padding-top: 20px; */
 }
 #my-portfilo .portfilo-images .img-phto{
-    height: 62vh;
+    height: 50vh;
     width: 100%;
     margin: 0% 0% 5% 0%;
     box-shadow: 3px 2px 12px 7px rgb(230, 225, 225);
 }
 #my-portfilo .portfilo-images .img-phto img{
-    height: 56vh;
+    height: 45vh;
     width: 100%;
     
 }
 #my-portfilo .portfilo-images .img-photos{
     margin: 0% 0% 5% 0%;
-    height: 90vh;
+    height: 60vh;
     width: 100%;
     box-shadow: 3px 2px 12px 7px rgb(230, 225, 225);
 }
 #my-portfilo .portfilo-images .img-photos img{
-    height: 86vh;
+    height: 55vh;
     width: 100%;
 }
 #my-portfilo .portfilo-images .img p{
     text-transform: uppercase;
+    padding: 2% 3%;
 }
 #my-portfilo .portfilo-images .img p span{
     color: blue;
-    padding: 0% 12% 0% 19%;
+    float: right;
 
 }
 /* CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
