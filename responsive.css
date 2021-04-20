@@ -45,7 +45,7 @@
     .skill-icons{
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
+        /* flex-wrap: wrap; */
     }
     .skill-icons .skill-boxes{
         margin-top: 04%;
@@ -89,5 +89,6 @@
     }
     #my-portfilo .portfilo-images .img p span{
         font-size: 10px;
+        visibility: hidden;
     }
 }

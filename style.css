@@ -20,6 +20,7 @@ color: white;
 .home-tlt h2{
     width: 70%;
     font-size: 35px;
+    font-family: 'Roboto', sans-serif;
 
 }
 .home-tlt h2 span{
@@ -65,7 +66,7 @@ color: white;
     right: 16%;
     top: 10px;
     width: 160px;
-    height: 180px;
+    height: 210px;
     text-align: center;
     float: right;
     color: white;
@@ -74,6 +75,7 @@ color: white;
 padding: 15px 0px 0px 0px;
 font-size: 70px;
 font-weight: bold;
+font-family: 'Roboto', sans-serif;
 }
 .btn-box .home-box h5{
 align-items: center;
@@ -114,6 +116,7 @@ SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS */
     text-transform: capitalize;
     padding: 5% 5% 3% 5%;
     font-size: 30px;
+    font-family: 'Roboto', sans-serif;
 }
 #my-serices .my-service span{
 color: rgb(7, 210, 246);
@@ -132,6 +135,7 @@ color: rgb(7, 210, 246);
 }
 #my-serices .services .service-boxes h1{
     padding: 3% 0%;
+    font-family: 'Roboto', sans-serif;
     text-transform: capitalize;
 }
 #my-serices .services .service-boxes p{
@@ -158,6 +162,7 @@ background-size: cover;
 #my-skill .skill-heading h1{
     text-transform: capitalize;
     padding: 5%;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     font-size: 30px;
 }
@@ -167,7 +172,7 @@ background-size: cover;
 .skill-icons{
     background-image: url(images/tea.jpg);
     width: 100%;
-    height: 40vh;
+    height: 50vh;
     background-position: center;
     display: flex;
 background-repeat: no-repeat;
@@ -207,6 +212,7 @@ background-size: cover;
     background-color: rgb(11, 156, 224);
     color: white;
     padding: 1.5% 2%;
+    cursor: pointer;
     border-radius: 30px;
     text-transform: uppercase;
     font-weight: bold;
@@ -315,6 +321,7 @@ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT */
 #my-team .my-tm h1{
     text-transform: capitalize;
     padding: 3% 4% 3% 5%;
+    font-family: 'Roboto', sans-serif;
     font-size: 30px;
 }
 #my-team .my-tm h1 span{
@@ -335,6 +342,7 @@ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT */
     width: 100%;
     height: 100%;
     margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 #my-team .team-mbrs .teams img{
     width: 93%;
@@ -364,6 +372,9 @@ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT */
     color: white;
     text-align: center;
 }
+#my-team .team-mbrs .teams .teams-icns a{
+    color: white;
+}
 /* PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP
                My Portfolio Section
 PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP */
@@ -373,6 +384,7 @@ PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP */
 }
 #my-portfilo .portfilo-heading h1{
     padding: 6% 4% 0px;
+    font-family: 'Roboto', sans-serif;
     text-transform: capitalize;
     font-size: 30px;
 }
@@ -399,8 +411,14 @@ margin: 10px;
 font-size: 15px;
 text-decoration: none;
 font-weight: bold;
+font-family: 'Roboto', sans-serif;
 color: black;
 }
+#my-portfilo .nav ul li a:hover{
+    border-bottom: red 4px solid;
+
+}
+
 #my-portfilo .prtflo-details{
 width: 100%;
 height: 100%;
@@ -409,7 +427,7 @@ flex-direction: column;
 }
 #my-portfilo .portfilo-images{
     width: 92%;
-    height: 100%;
+    height: 50%;
     align-items: center;
     display: flex;
     margin: 0% 0% 0% 7%;
@@ -418,33 +436,34 @@ flex-direction: column;
     width: 32%;
     display: flex;
     flex-direction: column;
-    height: 40%;
+    height: 50%;
 }
 #my-portfilo .portfilo-images .img-phto{
-    height: 100%;
+    height: 45vh;
     width: 96%;
     margin: 0% 0% 5% 0%;
     box-shadow: 3px 2px 12px 7px rgb(230, 225, 225);
 }
 #my-portfilo .portfilo-images .img-phto img{
-    height: 100%;
+    height: 90%;
     width: 100%;
     
 }
 #my-portfilo .portfilo-images .img-photos{
     margin: 0% 0% 5% 0%;
-    height: 30vh;
+    height: 55vh;
     width: 96%;
     box-shadow: 3px 2px 12px 7px rgb(230, 225, 225);
 }
 #my-portfilo .portfilo-images .img-photos img{
-    height: 84%;
+    height: 90%;
     width: 100%;
 }
 #my-portfilo .portfilo-images .img p{
     text-transform: uppercase;
     padding: 2% 3%;
     font-weight:500;
+    font-size: 15px;
     color: black;
 }
 #my-portfilo .portfilo-images .img p span{
@@ -464,6 +483,7 @@ flex-direction: column;
     width: 120px;
     text-transform: uppercase;
     height: 40px;
+    cursor: pointer;
     border-radius: 50px;
 }
 /* CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
@@ -477,6 +497,7 @@ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC */
 text-transform: capitalize;
 padding: 6% 4% 0px;
 font-size: 30px;
+font-family: 'Roboto', sans-serif;
 }
 #Happy-Clients .Clients-heading h1 span{
     color: rgb(7, 210, 246);
@@ -486,7 +507,6 @@ display: flex;
 justify-content: space-between;
 width: 92%;
 padding: 2% 4%;
-/* flex-direction: row; */
 }
 #Happy-Clients .clients-boxes .clients-box{
     width: 80%;
@@ -497,28 +517,31 @@ padding: 2% 4%;
     background-color: whitesmoke;
 }
 #Happy-Clients .clients-boxes .clients-box img{
-    width: 15%;
-    height: 14vh;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
     margin: 0% 0% 0% 40%;
     justify-items: center;
     float:center;
     text-align: center;
 }
+
 #Happy-Clients .clients-boxes .clients-box p{
     text-align: center;
     margin: 0% 5%;
+    font-size: 20px;
     color: black;
-    border-left: rgb(12, 12, 12) 2px solid;
 }
 #Happy-Clients .clients-boxes .clients-box h4{
     text-align: center;
+    text-transform: capitalize;
     margin: 0% 5%;
-    /* border-left: rgb(12, 12, 12) 2px solid; */
 }
 #Happy-Clients .clients-boxes .clients-box h1{
     text-align: center;
+    text-transform: capitalize;
     padding: 0% 5%;
+    font-family: 'Roboto', sans-serif;
 }
 #Happy-Clients .clients-boxes .clients-box i{
     color: rgb(7, 210, 246);
@@ -534,6 +557,7 @@ padding: 2% 4%;
     text-transform: capitalize;
     padding: 6% 4% 0px;
     font-size: 30px;
+    font-family: 'Roboto', sans-serif;
     }
 #latest-news .news-heading h1 span{
     color: rgb(7, 210, 246);
@@ -583,6 +607,7 @@ height: 100%;
     padding: 5% 0%;
     font-size: 15px;
     border: none;
+    cursor: pointer;
     font-weight: bold;
     text-transform: uppercase;
     background-color: whitesmoke;
@@ -599,6 +624,7 @@ height: 100%;
     text-transform: capitalize;
     padding: 4% 4% 0px;
     font-size: 30px;
+    font-family: 'Roboto', sans-serif;
     }
     #touch .touch-heading h1 span{
         color: rgb(7, 210, 246);
@@ -613,6 +639,7 @@ height: 100%;
     #touch .contact .form h1{
         text-transform: capitalize;
         padding: 04% 2%;
+        font-family: 'Roboto', sans-serif;
     }
     #touch .contact{
         width: 90%;
@@ -658,6 +685,7 @@ height: 100%;
         background-color: white;
         padding: 2% 4%;
         border-radius: 2rem;
+        font-weight: bold;
         cursor: pointer;
         text-transform: capitalize;
     }
