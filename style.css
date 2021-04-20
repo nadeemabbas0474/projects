@@ -8,8 +8,8 @@ background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
-/* clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 0% 80%); */
-height: 100vh;
+clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 0% 80%);
+height: 115vh;
 color: white;
 }
 .home-tlt{
@@ -18,13 +18,15 @@ color: white;
     /* height: 100vh; */
 }
 .home-tlt h2{
-    width: 60%;
+    width: 70%;
+    font-size: 35px;
+
 }
 .home-tlt h2 span{
     padding: 0px 0px 0px 1%;
-    color: rgb(8, 154, 212);
+    color: rgb(9, 210, 245);
     width: 30%;
-    font-size: 35px;
+    font-size: 45px;
 }
 .home-tlt h4{
     margin: 1.2% 0px 0px 0px ;
@@ -40,24 +42,29 @@ color: white;
 #home .home-about p{
     padding: 10px 0px 0px 0px;
     width: 71%;
-    font-size: 17px;
+    font-size: 20px;
 }
 .home-about .btn-box .btn{
     text-transform: uppercase;
     font-weight: bold;
+    cursor: pointer;
     margin: 2rem 0px 0px 0px ;
-    padding: 13px 45px 13px 45px;
-    border: 2px solid rgb(52, 52, 236);
+    padding: 13px 25px 13px 25px;
+    background-color: rgb(79, 82, 82);
+    border: 3px solid rgb(17, 157, 238);
     border-radius: 40px;
-    background-color: #fff;
+    color: white;
 }
-
+.home-about .btn-box .btn i{
+    padding: 1% 5px;
+}
 .btn-box .home-box{
-    background-color: blue;
+    background-color: rgb(9, 170, 245, 0.8);
     position: relative;
+    /* opacity: 0.8; */
     right: 16%;
     top: 10px;
-    width: 150px;
+    width: 160px;
     height: 180px;
     text-align: center;
     float: right;
@@ -83,7 +90,7 @@ SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS */
     position: relative;
     background-color: white;
 }
-#my-serices:before{
+/* #my-serices:before{
     content: '';
     width: 50%;
     height: 140px;
@@ -102,21 +109,19 @@ SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS */
     right: 0;
     background-color: white;
     transform: skewY(-8deg);
-}
+} */
 #my-serices .my-service h1{
     text-transform: capitalize;
     padding: 5% 5% 3% 5%;
-    font-size: 28px;
+    font-size: 30px;
 }
 #my-serices .my-service span{
-color: rgba(10, 70, 199, 0.986);
-font-size: 25px;
+color: rgb(7, 210, 246);
 }
 #my-serices .services{
     display: flex;
     width: 90%;
     padding: 0% 5% 5% 5%;
-    flex-direction: row;
 }
 #my-serices .services .service-boxes{
     border: whitesmoke 2px solid;
@@ -131,6 +136,7 @@ font-size: 25px;
 }
 #my-serices .services .service-boxes p{
 font-size: 1.2rem;
+color: black;
 }
 .services .service-boxes i{
     color: rgba(10, 177, 199, 0.986);
@@ -144,6 +150,7 @@ font-size: 1.2rem;
     width: 100%;
     background-image: url(images/bg.jpg);
     height: 100vh;
+    opacity: 0.9;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -152,49 +159,59 @@ background-size: cover;
     text-transform: capitalize;
     padding: 5%;
     text-align: center;
+    font-size: 30px;
 }
 #my-skill .skill-heading h1 span{
-    color: blue;
+    color: rgb(7, 169, 197);
 }
 .skill-icons{
     background-image: url(images/tea.jpg);
     width: 100%;
-    height: 50vh;
+    height: 40vh;
     background-position: center;
     display: flex;
-    flex-direction: row;
 background-repeat: no-repeat;
 justify-content: center;
+align-items: center;
 justify-content: space-evenly;
 background-size: cover;
 }
+.skill-icons .sklbox{
+    display: flex;
+    width: 80%;
+    padding: 0% 20px;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+
+}
 .skill-icons .skill-boxes{
-    margin-top: 06%;
-    height: 20vh;
-    width: 10%;
+    width: 18%;
     text-align: center;
     color: white;
 }
 .skill-icons .skill-boxes i{
     padding: 15%;
     color: rgba(0, 230, 251, 0.911);
-    font-size: 38px;
+    font-size: 35px;
+}
+.skill-icons .skill-boxesh1, p{
+    color: white;
+    font-size: 15px;
 }
 .wrap{
-    /* border: 2px wheat solid; */
     max-width: 50%;
-    /* margin: 100px auto 0;  */
     float: right;
 }
 .wrap .skill-button button{
-    background-color: rgb(7, 200, 214);
+    background-color: rgb(11, 156, 224);
     color: white;
-    padding: 1.5% 4%;
+    padding: 1.5% 2%;
     border-radius: 30px;
     text-transform: uppercase;
     font-weight: bold;
     border: none;
-    width: 20%;
+    width: 100px;
 }
 .bar{
     color: rgb(7, 0, 0);
@@ -290,25 +307,34 @@ abbr{
                    My Team Section
 TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT */
 #my-team{
-    padding: 3.5% 4%;
-    width: 92%;
-    height: 85vh;
+    /* padding: 3.5% 4%; */
+    width: 100%;
+    height: 100%;
     background-color: whitesmoke;
 }
 #my-team .my-tm h1{
     text-transform: capitalize;
-    padding: 3% 0% 3% 0%;
-    font-size: 28px;
+    padding: 3% 4% 3% 5%;
+    font-size: 30px;
 }
 #my-team .my-tm h1 span{
-    color: rgb(14, 14, 235);
+    color: rgb(7, 210, 246);
+}
+#my-team .mytm-mbrs{
+    display: flex;
+    width: 92%;
+    padding: 0% 4%;
+    height: 100%;
 }
 #my-team .team-mbrs{
-    display: flex;
-    justify-content: space-evenly;
-}
-#my-team .team-mbrs .teams{
     width: 100%;
+    height: 100%;
+    display: flex;
+}
+#my-team .mytm-mbrs .team-mbrs .teams{
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
 }
 #my-team .team-mbrs .teams img{
     width: 93%;
@@ -317,22 +343,20 @@ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT */
 #my-team .team-mbrs .teams h2{
     text-align: center;
     width: 93%;
-    padding: 0.5%;
-    box-sizing: border-box;
+    font-size: 20px;
     text-transform: capitalize;
 }
 #my-team .team-mbrs .teams p{
     text-align: center;
     box-sizing: border-box;
     width: 93%;
-    padding: 1.5%;
     color: rgb(8, 240, 248);
     font-weight: bold;
     font-size: 20px;
     text-transform: capitalize;
 }
 #my-team .team-mbrs .teams .teams-icns{
-    background-color: blue;
+    background-color: rgb(40, 180, 245);
     width: 93%;
     margin-top: 10px;
     padding: 3.5% 0%;
@@ -350,13 +374,14 @@ PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP */
 #my-portfilo .portfilo-heading h1{
     padding: 6% 4% 0px;
     text-transform: capitalize;
+    font-size: 30px;
 }
 #my-portfilo .portfilo-heading h1 span{
-    color: blue;
+    color: rgb(7, 210, 246);
 }
-
 #my-portfilo .nav{
 width: 100%;
+height: 50%;
 text-align: center;
 display: flex;
 justify-content: center;
@@ -371,51 +396,75 @@ text-transform: capitalize;
 }
 #my-portfilo .nav ul li a{
 margin: 10px;
-font-size: 25px;
+font-size: 15px;
 text-decoration: none;
 font-weight: bold;
+color: black;
+}
+#my-portfilo .prtflo-details{
+width: 100%;
+height: 100%;
+display: flex;
+flex-direction: column;
 }
 #my-portfilo .portfilo-images{
-    width: 85%;
-    height: 127vh;
+    width: 92%;
+    height: 100%;
+    align-items: center;
     display: flex;
     margin: 0% 0% 0% 7%;
-    justify-content: space-around;
-    flex-direction: row;
 }
 #my-portfilo .portfilo-images .img{
-    width: 30%;
-    height: 50vh;
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    height: 40%;
 }
 #my-portfilo .portfilo-images .img-phto{
-    height: 50vh;
-    width: 100%;
+    height: 100%;
+    width: 96%;
     margin: 0% 0% 5% 0%;
     box-shadow: 3px 2px 12px 7px rgb(230, 225, 225);
 }
 #my-portfilo .portfilo-images .img-phto img{
-    height: 45vh;
+    height: 100%;
     width: 100%;
     
 }
 #my-portfilo .portfilo-images .img-photos{
     margin: 0% 0% 5% 0%;
-    height: 60vh;
-    width: 100%;
+    height: 30vh;
+    width: 96%;
     box-shadow: 3px 2px 12px 7px rgb(230, 225, 225);
 }
 #my-portfilo .portfilo-images .img-photos img{
-    height: 55vh;
+    height: 84%;
     width: 100%;
 }
 #my-portfilo .portfilo-images .img p{
     text-transform: uppercase;
     padding: 2% 3%;
+    font-weight:500;
+    color: black;
 }
 #my-portfilo .portfilo-images .img p span{
-    color: blue;
+    color: rgb(7, 210, 246);
+    font-size: 15px;
+    font-weight: bold;
     float: right;
-
+}
+#my-portfilo .prtflo-details .prtflo-btn{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+#my-portfilo .prtflo-details .prtflo-btn button{
+    background-color: white;
+    border: 3px solid rgb(18, 191, 214);
+    width: 120px;
+    text-transform: uppercase;
+    height: 40px;
+    border-radius: 50px;
 }
 /* CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
             Happy Clients Section
@@ -427,16 +476,17 @@ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC */
 #Happy-Clients .Clients-heading h1{
 text-transform: capitalize;
 padding: 6% 4% 0px;
+font-size: 30px;
 }
 #Happy-Clients .Clients-heading h1 span{
-    color: blue;
+    color: rgb(7, 210, 246);
 }
 #Happy-Clients .clients-boxes{
 display: flex;
 justify-content: space-between;
 width: 92%;
-padding: 2%;
-flex-direction: row;
+padding: 2% 4%;
+/* flex-direction: row; */
 }
 #Happy-Clients .clients-boxes .clients-box{
     width: 80%;
@@ -458,6 +508,7 @@ flex-direction: row;
 #Happy-Clients .clients-boxes .clients-box p{
     text-align: center;
     margin: 0% 5%;
+    color: black;
     border-left: rgb(12, 12, 12) 2px solid;
 }
 #Happy-Clients .clients-boxes .clients-box h4{
@@ -469,89 +520,110 @@ flex-direction: row;
     text-align: center;
     padding: 0% 5%;
 }
+#Happy-Clients .clients-boxes .clients-box i{
+    color: rgb(7, 210, 246);
+}
 /* NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
                     News Section
     NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN */
 #latest-news{
-    width: 96%;
+    width: 100%;
     background-color: white;
 }
 #latest-news .news-heading h1{
     text-transform: capitalize;
     padding: 6% 4% 0px;
+    font-size: 30px;
     }
 #latest-news .news-heading h1 span{
-        color: blue;
+    color: rgb(7, 210, 246);
     }
 #latest-news .news-boxes{
     display: flex;
-    width: 93%;
-    flex-direction: row;
-    margin: 2.5%;
+    width: 90%;
+    margin: 5.5%;
 }
 #latest-news .news-boxes .news-box{
     display: flex;
     width: 100%;
-    margin: 2% 1%;
-    flex-direction: row;
+    margin: 1% 3%;
 }
+
 #latest-news .news-boxes .news-box img{
 width: 100%;
-height: 40vh;
+height: 100%;
 }  
 #latest-news .news-boxes .news-box .news-details 
 {
-    width: 100%;
+    width: 92%;
     background: whitesmoke;
-    padding: 1% 0% 0% 1%;
-}        
+    padding: 4%;
+}
+#latest-news .news-boxes .news-box .news-details .john{
+    display: flex;
+    flex-direction: row;
+    padding: 02% 0%;
+    text-transform: capitalize;
+}  
+#latest-news .news-boxes .news-box .news-details .john h4:nth-child(2) {
+    margin:0% 9%;
+    
+
+}
+#latest-news .news-boxes .news-box .news-details .john i{
+    color: rgb(7, 210, 246);
+    /* padding: 0px 1%; */
+}
+#latest-news .news-boxes .news-box .news-details p{
+    font-size: 20px;
+    color: black;
+} 
+#latest-news .news-boxes .news-box .news-details button{
+    color: rgb(7, 178, 246);
+    padding: 5% 0%;
+    font-size: 15px;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: whitesmoke;
+}     
 /* GETGETGETGETGETGETGETGETGETGETGETGETGETGET
                 Get In Touch Section
     GETGETGETGETGETGETGETGETGETGETGETGETGETGET */
     #touch{
         width: 100%;
-        height: 100vh;
+        height: 80vh;
         background-color: rgba(245, 245, 245, 0.993);
     }
     #touch .touch-heading h1{
     text-transform: capitalize;
-    padding: 6% 4% 0px;
+    padding: 4% 4% 0px;
+    font-size: 30px;
     }
     #touch .touch-heading h1 span{
-        color: blue;
-    }
-    /* GETGETGETGETGETGETGETGETGETGETGETGETGETGET
-                Get In Touch Section
-    GETGETGETGETGETGETGETGETGETGETGETGETGETGET  */
-    #touch{
-        width: 100%;
-        height: 100vh;
-    }
-    #touch .touch-heading h1{
-        text-transform: capitalize;
-        padding: 6% 4% 0px;
+        color: rgb(7, 210, 246);
     }
     #touch .contact .form{
         background-color: white;
-        padding: 1% 2% 0px;
-        border-radius: 10px;
-        width: 40%;
-        height: 70vh;
+        padding: 0% 2% 0px;
+        border-radius: 6px;
+        width: 90%;
+        height: 70%;
     }
     #touch .contact .form h1{
         text-transform: capitalize;
-        padding: 0% 2%;
+        padding: 04% 2%;
     }
     #touch .contact{
         width: 90%;
+        height: 100%;
         display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
+        /* flex-direction: row; */
+        justify-content: space-between;
         padding: 1.5% 4% 0px;
-        /* border: solid 2px black; */
     }
     #touch .contact .for-form .frm{
-        margin: 2% 0%;
+        margin: 1% 0%;
         display: flex;
         flex-direction: row;
         border: none;
@@ -568,14 +640,13 @@ height: 40vh;
     border-bottom: 2px solid #4caf50;
 	width: 90%;
 	float: left;
-	margin: 25px 9px;
-    padding: 2% 1%;
+	margin: 10px 14px;
+    padding: 1% 1%;
     }
     #touch .contact .for-form .frm textarea{
         border: none;
         outline: none;
         color: rgb(14, 11, 11);
-        /* font-size: 18px; */
         border-bottom: 2px solid #4caf50;
         width: 98%;
         max-height: 200px;
@@ -583,15 +654,26 @@ height: 40vh;
         padding: 0% 1.5%;
     }
     #touch .contact .for-form button{
-        border: 2px solid rgb(0, 195, 255);
+        border: 3px solid rgb(0, 195, 255);
         background-color: white;
         padding: 2% 4%;
         border-radius: 2rem;
+        cursor: pointer;
         text-transform: capitalize;
     }
     #touch .contact .for-form{
-        padding: 3% 0%;
-        width: 80%;
+        padding: 0% 0%;
+    }
+    #touch .contact .google-mape iframe{
+        margin-top: 1%;
+        margin-left: 6%;
+        width: 99%;
+        height: 80%;
+    }
+    #touch .contact .google-mape{
+        width: 90%;
+        height: 80%;
+        
     }
 /* FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
                   Footer Section

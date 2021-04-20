@@ -1,0 +1,93 @@
+/* ////////////////////////////////////////////
+                Tablets
+//////////////////////////////////////////// */
+@media screen and (max-width: 984px) {
+    #home{
+        height: 100vh;
+    }
+    .home-tlt h2{
+        font-size: 25px;
+    }
+    .home-about .btn-box .btn{
+        padding: 10px 20px 10px 20px;
+    }
+    .home-about .btn-box .btn i{
+        padding: 0% 3px;
+    }
+    #home .home-about p:nth-child(3){
+        visibility: hidden;
+        font-size: 15px;
+    }
+    .btn-box .home-box{
+        visibility: hidden;
+    }
+    
+    #my-portfilo .portfilo-images .img{
+        display: flex;
+        /* flex-direction: row; */
+    }
+    #latest-news .news-boxes{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+/* ////////////////////////////////////////////////
+                    moblie
+////////////////////////////////////////////////*/
+@media screen and (max-width: 654px){
+    #my-serices .services{
+        display: flex;
+        flex-direction: column;
+    }
+    .skill-icons{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .skill-icons .skill-boxes{
+        margin-top: 04%;
+        text-align: center;
+        color: white;
+    }
+    .skill-icons .skill-boxes i{
+        font-size: 20px;
+        padding: 0px 10px;
+    }
+    #my-team .team-mbrs{
+        display: flex;
+        flex-direction: column;
+    }
+    #Happy-Clients .clients-boxes{
+        display: flex;
+        flex-direction: column;
+    }
+    #latest-news .news-boxes .news-box{
+        display: flex;
+        flex-direction: column;
+    }
+    #touch .contact{
+        flex-direction: column;
+    }
+    #touch .contact .google-mape{
+        padding-top: 10px;
+    }
+    #my-portfilo .nav ul li a{
+        font-size: 10px;
+    }
+    #my-portfilo .portfilo-images .img{
+        width: 82%;
+        display: flex;
+        flex-direction: row;
+        height: 40%;
+    }
+    #my-portfilo .portfilo-images{
+        display: flex;
+        /* flex-direction: column; */
+    }
+    #my-portfilo .portfilo-images .img p span{
+        font-size: 10px;
+    }
+}
