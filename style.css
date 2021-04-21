@@ -617,7 +617,7 @@ height: 100%;
     GETGETGETGETGETGETGETGETGETGETGETGETGETGET */
     #touch{
         width: 100%;
-        height: 80vh;
+        height: 130vh;
         background-color: rgba(245, 245, 245, 0.993);
     }
     #touch .touch-heading h1{
@@ -634,7 +634,7 @@ height: 100%;
         padding: 0% 2% 0px;
         border-radius: 6px;
         width: 90%;
-        height: 70%;
+        height: 65%;
     }
     #touch .contact .form h1{
         text-transform: capitalize;
