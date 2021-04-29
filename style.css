@@ -41,7 +41,7 @@
     background-blend-mode: darken;
     background-size: cover;
     clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 0% 80%);
-    height: 99vh;
+    height: 110vh;
     color: white;
 }
 .home-tlt{
@@ -522,10 +522,10 @@ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC */
 }
 #Happy-Clients .clients-boxes .clients-box{
     width: 97%;
-    height: 30%;
+    height: 55%;
     justify-items: center;
     margin: 2% 2% 10% 0%;
-    padding: 1% 0% 9% 01%;
+    padding: 1%;
     border: 2px solid rgba(182, 177, 177, 0.253);
     background-color: whitesmoke;
 }
