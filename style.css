@@ -3,45 +3,57 @@
     padding: 0;
     margin: 0;
 }
+
+/* Common classes start*/
+.heading-title {
+    font-size: 50px;
+    text-transform: capitalize;
+    padding: 5% 4%;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+
+.heading-title span {
+    color: rgb(7, 210, 246);
+}
+.main-heading{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    text-transform: capitalize;
+    font-size: 50px;
+}
+.main-heading span{
+    color: rgb(7, 210, 246);
+    font-size: 60px;
+    font-weight:bold;
+}
+.paragraph{
+    font-size: 16px;
+}
+
 #home{
-background:url(images/bg-img.jpg);
-background-attachment: fixed;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 0% 80%);
-height: 115vh;
-color: white;
+    background:url(images/nad.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(142, 144, 149);
+    background-blend-mode: darken;
+    background-size: cover;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 0% 80%);
+    height: 99vh;
+    color: white;
 }
 .home-tlt{
     width: 94%;
     padding: 7% 0px 0px 5.5%;
-    /* height: 100vh; */
-}
-.home-tlt h2{
-    width: 70%;
-    font-size: 45px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 100;
-    
-
-}
-.home-tlt h2 span{
-    padding: 0px 0px 0px 1%;
-    color: rgb(9, 210, 245);
-    width: 30%;
-    font-size: 75px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight:bold;
 }
 .home-tlt h4{
     margin: 1.2% 0px 0px 0px ;
     text-transform: capitalize;
-    width: 50%;
+    width: 90%;
     color: rgb(245, 236, 212);
-    font-size: 20px;
+    font-size: 25px;
     letter-spacing: 1px;
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
@@ -51,24 +63,30 @@ color: white;
 #home .home-about h2{
     text-transform: capitalize;
     margin: 3.3% 0px 0.6% 0px;
-    width: 50%;
+    font-size: 29px;
+    width: 80%;
 }
 #home .home-about p{
     padding: 10px 0px 0px 0px;
-    width: 58%;
+    width: 68%;
+    font-size: 1.1rem;
     color: rgb(241, 235, 215);
-    line-height: 25px;
-    font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: 200;
+}
+.home-about .btn-box{
+    display: flex;
+    justify-content: space-between;
 }
 .home-about .btn-box .btn{
     text-transform: uppercase;
     font-weight: bold;
     cursor: pointer;
     margin: 2rem 0px 0px 0px ;
-    padding: 13px 25px 13px 25px;
+    width: 180px;
+    height: 55px;
+    font-size: 16px;
     background-color: rgb(79, 82, 82);
     border: 3px solid rgb(17, 157, 238);
     border-radius: 40px;
@@ -80,30 +98,28 @@ color: white;
 .btn-box .home-box{
     background-color: rgb(9, 170, 245, 0.8);
     position: relative;
-    /* opacity: 0.8; */
     right: 16%;
-    top: 25px;
-    width: 170px;
+    top: 49px;
+    width: 190px;
     height: 230px;
     text-align: center;
     float: right;
     color: white;
 } 
-.btn-box .home-box h1{
-padding: 15px 0px 0px 0px;
-font-size: 80px;
-font-weight: bold;
-font-family: Arial, Helvetica, sans-serif;
+.btn-box .home-box h3{
+    padding: 15px 0px 0px 0px;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
 }
 .btn-box .home-box h5{
-align-items: center;
-font-size: 17px;
-text-align: center;
-padding: 0px 20px 0px 20px;
-text-transform: capitalize;
-
-font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    font-size: 17px;
+    text-align: center;
+    padding: 0px 20px 0px 20px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight:bold;
 }
@@ -112,40 +128,9 @@ font-family: Arial, Helvetica, sans-serif;
 SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS */
 #my-serices{
     width: 100%;
-    position: relative;
     background-color: white;
 }
-/* #my-serices:before{
-    content: '';
-    width: 50%;
-    height: 140px;
-    position: absolute;
-    top: -58px;
-    left: 0;
-    background-color: white;
-    transform: skewY(8deg);
-}
-#my-serices:after{
-    content: '';
-    width: 50%;
-    height: 140px;
-    position: absolute;
-    top: -58px;
-    right: 0;
-    background-color: white;
-    transform: skewY(-8deg);
-} */
-#my-serices .my-service h1{
-    text-transform: capitalize;
-    padding: 5% 5% 3% 5%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 100;
-    font-size: 35px;
-}
-#my-serices .my-service span{
-color: rgb(7, 210, 246);
-}
+
 #my-serices .services{
     display: flex;
     width: 90%;
@@ -158,20 +143,21 @@ color: rgb(7, 210, 246);
     justify-content: space-around;
     box-shadow:2px 2px 2px 1px whitesmoke;
 }
-#my-serices .services .service-boxes h1{
+#my-serices .services .service-boxes h3{
     padding: 3% 0%;
+    font-size: 22px;
     text-transform: capitalize;
     font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
+    /* font-style: normal; */
     color: rgba(15, 15, 15, 0.924);
     font-weight: 200;
-}
+}    
 #my-serices .services .service-boxes p{
-font-size: 1.2rem;
-color: rgba(36, 33, 33, 0.739);
-font-family: Arial, Helvetica, sans-serif;
-font-style: normal;
-font-weight: 100;
+    font-size: 1.1rem;
+    color: rgba(36, 33, 33, 0.739);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 100;
 }
 .services .service-boxes i{
     color: rgb(7, 210, 246);
@@ -182,75 +168,6 @@ font-weight: 100;
                     My Skill Section
     SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS */
 
-#my-skill{
-    width: 100%;
-    background-image: url(images/bg.jpg);
-    height: 110vh;
-    opacity: 0.9;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-}
-#my-skill .skill-heading h1{
-    text-transform: capitalize;
-    padding: 5%;
-    text-align: center;
-    font-weight: normal;
-    font-size: 35px;
-    font-family: Arial, Helvetica, sans-serif;
-    /* font-style: normal; */
-}
-#my-skill .skill-heading h1 span{
-    color: rgb(7, 169, 197);
-}
-.skill-icons{
-    background-image: url(images/tea.jpg);
-    width: 100%;
-    height: 50vh;
-    background-position: center;
-    display: flex;
-background-repeat: no-repeat;
-justify-content: center;
-align-items: center;
-justify-content: space-evenly;
-background-size: cover;
-}
-.skill-icons .sklbox{
-    display: flex;
-    width: 80%;
-    padding: 0% 20px;
-    align-items: center;
-    justify-content: center;
-    justify-content: space-around;
-
-}
-.skill-icons .skill-boxes{
-    width: 18%;
-    text-align: center;
-    color: white;
-}
-.skill-icons .skill-boxes i{
-    padding: 19%;
-    color: rgba(0, 230, 251, 0.911);
-    font-size: 48px;
-}
-.skill-icons .skill-boxes h1{
-    font-weight: normal;
-    font-size: 30px;
-    padding: 7%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
-    color: rgb(250, 244, 229);
-
-}
-.skill-icons .skill-boxes p{
-    font-weight: normal;
-    font-size: 19px;
-    padding: 5% 0%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
-    color: rgba(246, 237, 217, 0.931);
-}
 .wrap{
     width: 53%;
     margin: 3% 0%;
@@ -260,14 +177,14 @@ background-size: cover;
 .wrap .skill-button button{
     background-color: rgba(4, 172, 250, 0.897);
     color: white;
-    padding: 20px 15px;
     cursor: pointer;
+    height: 50px;
     border-radius: 50px;
     font-size: 20px;
     text-transform: uppercase;
     font-weight: bold;
     border: none;
-    width: 160px;
+    width: 140px;
 }
 .bar{
     color: rgb(7, 0, 0);
@@ -280,8 +197,9 @@ background-size: cover;
 }
 .wrap .bar h3{
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: normal;
-    color: rgba(14, 13, 13, 0.911);
+    font-weight: bold;
+    font-size: 20px;
+    color: rgba(255, 254, 254, 0.911);
 }
 .bar span{
     position: relative;
@@ -297,7 +215,6 @@ background-size: cover;
     width: 95%;
     height: 100%;
     background: rgb(26, 183, 231);
-    /* background: linear-gradient(to left, #ff0057, #ffeb3b); */
     border-radius: 50px;
     animation: bar 4s ease;
 }
@@ -331,13 +248,14 @@ background-size: cover;
     width: 70%;
 }
 abbr{
-    width: 35px;
+    width: 37px;
     display: inline-block;
-    height: 25px;
+    height: 22px;
     color: white;
+    font-size: 17px;
     border-radius: 05px;
     text-align: center;
-    line-height: 25px;
+    line-height: 26px;
     position: absolute;
     background: black;
     animation: count 4s ease;
@@ -363,6 +281,67 @@ abbr{
     left: 70%;
 }
 
+
+#my-skill{
+    width: 100%;
+    background-image: url(images/image.jpg);
+    height: 130vh;
+    opacity: 0.9;
+    background-color: rgba(110, 102, 102, 0.507);
+    background-blend-mode: darken;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.skill-icons{
+    background-image: url(images/tea.jpg);
+    width: 100%;
+    height: 62vh;
+    background-position: center;
+    display: flex;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background-size: cover;
+}
+.skill-icons .sklbox{
+    display: flex;
+    width: 80%;
+    padding: 0% 20px;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+.skill-icons .skill-boxes{
+    width: 18%;
+    text-align: center;
+    color: white;
+}
+.skill-icons .skill-boxes i{
+    padding: 19%;
+    color: rgba(0, 230, 251, 0.911);
+    font-size: 48px;
+}
+.skill-icons .skill-boxes h2{
+    font-weight: normal;
+    font-size: 30px;
+    padding: 7%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: rgb(250, 244, 229);
+
+}
+.skill-icons .skill-boxes p{
+    font-weight: normal;
+    font-size: 19px;
+    padding: 5% 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: rgba(246, 237, 217, 0.931);
+}
 /* TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
                    My Team Section
 TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT */
@@ -372,28 +351,19 @@ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT */
     background-color: whitesmoke;
     padding-top: 4%;
 }
-#my-team .my-tm h1{
-    text-transform: capitalize;
-    padding: 5% 4%;
-    font-weight: normal;
-    font-size: 35px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
-}
-#my-team .my-tm h1 span{
-    color: rgb(7, 210, 246);
-}
 #my-team .mytm-mbrs{
     display: flex;
     width: 90%;
     padding: 01% 5% 7%;
-
     height: 100%;
+    flex-direction: row;
 }
 #my-team .team-mbrs{
     width: 100%;
     height: 100%;
+    margin-left: 2%;
     display: flex;
+    flex-direction: row;
 }
 #my-team .mytm-mbrs .team-mbrs .teams{
     width: 98%;
@@ -408,9 +378,7 @@ TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT */
     text-align: center;
     width: 93%;
     font-size: 20px;
-    /* font-weight: normal; */
     color: rgba(54, 51, 51, 0.795);
-    /* font-style: normal; */
     text-transform: capitalize;
 }
 #my-team .team-mbrs .teams p{
@@ -442,55 +410,42 @@ PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP */
     height: 100%;
     padding-bottom: 7%;
 }
-#my-portfilo .portfilo-heading h1{
-    padding: 6% 4% 0px;
-    text-transform: capitalize;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 100;
-    font-size: 35px;
-}
-#my-portfilo .portfilo-heading h1 span{
-    color: rgb(7, 210, 246);
-}
 #my-portfilo .nav{
-width: 90%;
-/* height: 50%; */
-text-align: center;
-display: flex;
-justify-content: center;
-padding: 4%;
+    width: 92%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 4%;
 }
 #my-portfilo .nav ul{
-display: flex;
-list-style: none;
-flex-direction: row;
-text-align: center;
-text-transform: capitalize;
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    text-align: center;
+    text-transform: capitalize;
 }
 #my-portfilo .nav ul li a{
-margin: 6px;
-font-size: 16px;
-text-decoration: none;
-font-weight: 100;
-color: black;
+    margin: 9px;
+    font-size: 26px;
+    text-decoration: none;
+    font-weight:normal;
+    color: black;
 }
 #my-portfilo .nav ul li a:hover{
-    border-bottom: red 4px solid;
-
+    border-bottom: rgb(0, 153, 255) 4px solid;
 }
-
 #my-portfilo .prtflo-details{
-width: 100%;
-height: 100%;
-display: flex;
-flex-direction: column;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 #my-portfilo .portfilo-images{
-    width: 92%;
+    width: 93%;
     height: 50%;
     align-items: center;
     display: flex;
+    flex-direction: row;
     margin: 0% 0% 0% 7%;
 }
 #my-portfilo .portfilo-images .img{
@@ -498,6 +453,7 @@ flex-direction: column;
     display: flex;
     flex-direction: column;
     height: 50%;
+    margin-top: 2%;
 }
 #my-portfilo .portfilo-images .img-phto{
     height: 45vh;
@@ -555,42 +511,34 @@ CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC */
 #Happy-Clients{
     background:rgba(223, 217, 217, 0.274);
     width: 100%;
-}
-#Happy-Clients .Clients-heading h1{
-text-transform: capitalize;
-padding: 5% 4% 0px;
-font-size: 35px;
-font-weight: normal;
-}
-#Happy-Clients .Clients-heading h1 span{
-    color: rgb(7, 210, 246);
+    height: 80%;
 }
 #Happy-Clients .clients-boxes{
-display: flex;
-justify-content: space-between;
-width: 92%;
-padding: 2% 4%;
+    display: flex;
+    height: 60vh;
+    justify-content: space-between;
+    width: 92%;
+    padding: 0% 4%;
 }
 #Happy-Clients .clients-boxes .clients-box{
     width: 97%;
-    height: 100;
+    /* height: 100; */
     justify-items: center;
     margin: 2% 2% 10% 0%;
     padding: 2%;
     border: 2px solid rgba(182, 177, 177, 0.253);
-    /* box-shadow:2px 2px 2px 4px rgba(245, 245, 245, 0.479); */
     background-color: whitesmoke;
 }
 #Happy-Clients .clients-boxes .clients-box img{
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    margin: 0% 0% 0% 38%;
+    margin: 0% 38%;
 }
 
 #Happy-Clients .clients-boxes .clients-box p{
     text-align: center;
-    padding: 2% 5%;
+    padding: 0% 5%;
     font-size: 20px;
     font-weight: 100;
     color: rgba(5, 5, 5, 0.952);
@@ -603,11 +551,10 @@ padding: 2% 4%;
     color: rgba(32, 31, 31, 0.596);
     padding: 01% 5%;
 }
-#Happy-Clients .clients-boxes .clients-box h1{
+#Happy-Clients .clients-boxes .clients-box h2{
     text-align: center;
     text-transform: capitalize;
     color: rgba(19, 16, 16, 0.678);
-    /* font-weight: 600; */
     font-style: normal;
     font-size: 25px;
     padding: 0% 5%;
@@ -623,18 +570,7 @@ padding: 2% 4%;
 #latest-news{
     width: 100%;
     background-color: white;
-    
 }
-#latest-news .news-heading h1{
-    text-transform: capitalize;
-    padding: 6% 5% 0px;
-    font-size: 35px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: normal;
-    }
-#latest-news .news-heading h1 span{
-    color: rgb(7, 210, 246);
-    }
 #latest-news .news-boxes{
     display: flex;
     width: 94%;
@@ -643,15 +579,15 @@ padding: 2% 4%;
 #latest-news .news-boxes .news-box{
     display: flex;
     width: 96%;
-    margin: 2% 1%;
+    margin: 2% 4%;
     height: 100%;
 }
 #latest-news .news-boxes .news-box .news-imges{
-    width: 92%;
+    width: 93%;
 }
 #latest-news .news-boxes .news-box img{
-width: 100%;
-height: 100%;
+    width: 100%;
+    height: 100%;
 }  
 #latest-news .news-boxes .news-box .news-details 
 {
@@ -659,7 +595,7 @@ height: 100%;
     background: whitesmoke;
     padding: 8% 4%;
 }
-#latest-news .news-boxes .news-box .news-details h1{
+#latest-news .news-boxes .news-box .news-details h3{
     font-weight: 500;
     font-size: 30px;
 }
@@ -670,11 +606,6 @@ height: 100%;
     text-transform: capitalize;
     font-weight: 500;
 }  
-#latest-news .news-boxes .news-box .news-details .john h4:nth-child(2) {
-    margin:0% 9%;
-    
-
-}
 #latest-news .news-boxes .news-box .news-details .john i{
     color: rgb(7, 158, 246);
     padding: 0px 8px 0px 10px;
@@ -698,54 +629,50 @@ height: 100%;
 /* GETGETGETGETGETGETGETGETGETGETGETGETGETGET
                 Get In Touch Section
     GETGETGETGETGETGETGETGETGETGETGETGETGETGET */
-    #touch{
-        width: 100%;
-        height: 130vh;
-        background-color: rgba(184, 181, 181, 0.383);
-    }
-    #touch .touch-heading h1{
+#touch{
+    width: 96%;
+    height: 130vh;
+    background-color: rgba(184, 181, 181, 0.383);
+}
+#touch .contact .google-mape iframe{
+    width: 98%;
+    height: 99%;
+}
+#touch .contact .google-mape{
+    width: 100%;
+    height: 80%;
+    margin-left: 2%;
+}
+#touch .contact .form{
+    background-color: white;
+    width: 96%;
+    height: 80%;
+}
+#touch .contact .form h3{
     text-transform: capitalize;
-    padding: 4% 4% 0px;
-    font-size: 35px;
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 04% 2%;
     font-weight: normal;
-    }
-    #touch .touch-heading h1 span{
-        color: rgb(7, 210, 246);
-    }
-    #touch .contact .form{
-        background-color: white;
-        padding: 0% 2% 0px;
-        border-radius: 6px;
-        width: 90%;
-        height: 60%;
-    }
-    #touch .contact .form h1{
-        text-transform: capitalize;
-        padding: 04% 2%;
-        font-weight: normal;
-        font-size: 34px;
-        color: rgba(12, 11, 11, 0.863);
-    }
-    #touch .contact{
-        width: 90%;
-        height: 100%;
-        display: flex;
-        /* flex-direction: row; */
-        justify-content: space-around;
-        padding: 4% 4% 0px;
-    }
-    #touch .contact .for-form .frm{
-        margin: 1% 0%;
-        display: flex;
-        flex-direction: row;
-        border: none;
-        justify-content: space-between;
-        width: 100%;
+    font-size: 34px;
+    color: rgba(12, 11, 11, 0.863);
+}
+#touch .contact{
+    width: 90%;
+    height: 88%;
+    display: flex;
+    justify-content: space-between;
+    padding: 4% 4% 0%;
+}
+#touch .contact .for-form .frm{
+    margin: 1% 0%;
+    display: flex;
+    flex-direction: row;
+    border: none;
+    justify-content: space-between;
+    width: 100%;
 	overflow: hidden;
 	font-size: 20px;
-    }
-    #touch .contact .for-form .frm input{
+}
+#touch .contact .for-form .frm input{
     border: none;
 	outline: none;
 	color: white;
@@ -755,44 +682,33 @@ height: 100%;
 	float: left;
 	margin: 10px 14px;
     padding: 2% 1%;
-    }
-    #touch .contact .for-form .frm textarea{
-        border: none;
-        outline: none;
-        color: rgb(14, 11, 11);
-        border-bottom: 2px solid rgb(0, 195, 255);
-        width: 98%;
-        max-height: 200px;
-        margin: 0px 9px;
-        padding: 2% 1.5%;
-    }
-    #touch .contact .for-form button{
-        border: 3px solid rgb(0, 195, 255);
-        background-color: white;
-        padding: 2.5% 6%;
-        font-size: 20px;
-        margin: 15px 0px;
-        color: rgba(0, 0, 0, 0.534);
-        border-radius: 2rem;
-        font-weight: bold;
-        cursor: pointer;
-        text-transform: capitalize;
-    }
-    #touch .contact .for-form{
-        padding: 0% 0%;
-    }
-    #touch .contact .google-mape iframe{
-        margin-top: 1%;
-        /* filter: invert(-100%); */
-        margin-left: 6%;
-        width: 99%;
-        height: 77%;
-    }
-    #touch .contact .google-mape{
-        width: 94%;
-        height: 75%;
-        
-    }
+}
+#touch .contact .for-form .frm textarea{
+    border: none;
+    outline: none;
+    color: rgb(14, 11, 11);
+    border-bottom: 2px solid rgb(0, 195, 255);
+    width: 98%;
+    max-height: 100px;
+    margin: 0px 9px;
+    padding: 2% 1.5%;
+}
+#touch .contact .for-form button{
+    border: 3px solid rgb(0, 195, 255);
+    background-color: white;
+    padding: 2.5% 6%;
+    font-size: 20px;
+    margin: 15px 10px;
+    color: rgba(0, 0, 0, 0.534);
+    border-radius: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+#touch .contact .for-form{
+    padding: 0% 0%;
+}
+
 /* FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
                   Footer Section
 FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF */
@@ -802,17 +718,13 @@ FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF */
     flex-direction: column;
     justify-content: center;
     width: 100%;
-    /* margin-top: 40px; */
-    /* padding-bottom: 0px; */
     height: 45vh;
     align-items: center;
-    padding: 1rem 0;
+    padding: 2rem 0;
 }
 .footer .footer-icons {
    display: flex;
-   /* width: 15rem; */
-   /* height: 4rem; */
-   padding: 10px 40px;
+   padding: 6px 0px;
 }
 .footer .footer-icons .icon-wrapper {
    display: flex;
@@ -828,7 +740,9 @@ FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF */
    border-radius: 50%;
    box-shadow: 0px 0px 4px 4px rgba(49, 148, 240, 0.541);
 }
-
+.footer .footer-icons .icon-wrapper i{
+    font-size: 30px;
+}
 .footer .footer-icons .icon-wrapper:hover {
    background: rgba(0,0,0,0.4);
    color: white;
